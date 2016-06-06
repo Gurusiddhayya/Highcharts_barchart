@@ -3,7 +3,7 @@
  Exporting module
 
  (c) 2010-2016 Torstein Honsi
-
+ 
  License: www.highcharts.com/license
 */
 (function(f){typeof module==="object"&&module.exports?module.exports=f:f(Highcharts)})(function(f){var t=f.win,k=t.document,C=f.Chart,v=f.addEvent,D=f.removeEvent,E=f.fireEvent,s=f.createElement,u=f.discardElement,x=f.css,l=f.merge,q=f.each,r=f.extend,F=f.splat,G=Math.max,H=f.isTouchDevice,I=f.Renderer.prototype.symbols,A=f.getOptions(),B;r(A.lang,{printChart:"Print chart",downloadPNG:"Download PNG image",downloadJPEG:"Download JPEG image",downloadPDF:"Download PDF document",downloadSVG:"Download SVG vector image",
